@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Ali",
+    "title": "Front-End Developer",
+    "description": "I craft robust web interfaces with meticulous attention to detail. Passionate about building performant, accessible, and beautiful web applications.",
+    "cta": "View My Work",
+    "scroll": "Scroll Down"
+  },
+  "about": {
+    "heading": "The Architect Behind The Code",
+    "bio1": "A passionate Front-End Developer dedicated to turning complex ideas into seamless, interactive digital interfaces. My approach combines technical precision with creative problem-solving to build unique user experiences.",
+    "bio2": "I focus on building modern, performant, and scalable web applications. I pay close attention to every detail in the codebase to ensure fluid interactions, high performance, and robust architecture.",
+    "stats": {
+      "years": "Years Experience",
+      "projects": "Projects Delivered",
+      "stars": "Hours of Coding"
+    },
+    "timeline": {
+      "title1": "Started Coding",
+      "desc1": "First line of HTML written, sparking a lifelong passion for programming.",
+      "title2": "First Freelance",
+      "desc2": "Built websites for local businesses while studying computer science.",
+      "title3": "Academic & Personal Growth",
+      "desc3": "Sharpening programming skills through computer science studies while building robust, real-world web applications.",
+      "title4": "Modern Front-End Dev",
+      "desc4": "Crafting fast, responsive, and seamless web applications using modern front-end tech to deliver top-tier user experiences."
+    }
+  },
+  "projects": {
+    "heading": "Selected Works",
+    "viewProject": "View Project",
+    "projects": [
+      {
+        "name": "Nexus Analytics",
+        "description": "Real-time data analytics dashboard with customizable widgets and AI-powered insights for enterprise clients.",
+        "tags": ["React", "TypeScript", "D3.js", "WebSocket"]
+      },
+      {
+        "name": "Luxe Commerce",
+        "description": "Premium e-commerce platform with seamless checkout, inventory management, and AI product recommendations.",
+        "tags": ["Next.js", "Node.js", "PostgreSQL", "Stripe"]
+      },
+      {
+        "name": "DevStudio Pro",
+        "description": "AI-powered code editor with intelligent autocomplete, real-time collaboration, and cloud deployment.",
+        "tags": ["Electron", "Monaco", "OpenAI", "WebRTC"]
+      },
+      {
+        "name": "Social Pulse",
+        "description": "Social media analytics platform tracking engagement metrics across multiple platforms in real-time.",
+        "tags": ["Vue.js", "Python", "Redis", "GraphQL"]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's Build Together",
+    "description": "Have a project in mind? Let's discuss how we can turn your ideas into reality.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "social": "Or find me on"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "built": "Built with React & Three.js"
+  },
+  "lang": {
+    "en": "EN",
+    "ar": "AR",
+    "ru": "RU",
+    "jp": "JP"
+
+  }
+}

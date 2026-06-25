@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Ali",
+    "title": "Développeur Front-End",
+    "description": "Je crée des systèmes numériques robustes avec une attention méticuleuse aux détails. Passionné par la construction d'applications web performantes, accessibles et belles.",
+    "cta": "Voir mes travaux",
+    "scroll": "Défiler vers le bas"
+  },
+  "about": {
+    "heading": "L'architecte derrière le code",
+    "bio1": "Avec plus d'une décennie d'expérience en ingénierie logicielle, j'ai perfectionné mon art dans des startups et des environnements d'entreprise. Mon approche combine la précision technique avec la résolution créative de problèmes.",
+    "bio2": "Je me spécialise dans la construction d'applications web évolutives utilisant des technologies modernes. Du concept au déploiement, je m'assure que chaque ligne de code sert un but et que chaque interaction est intuitive.",
+    "stats": {
+      "years": "Années d'expérience",
+      "projects": "Projets livrés",
+      "stars": "Étoiles GitHub"
+    },
+    "timeline": {
+      "title1": "Début du codage",
+      "desc1": "Première ligne de HTML écrite, déclenchant une passion durable pour la programmation.",
+      "title2": "Premier freelance",
+      "desc2": "Construction de sites web pour des entreprises locales tout en étudiant l'informatique.",
+      "title3": "Développeur senior",
+      "desc3": "Direction d'équipes de développement dans des startups tech, livrant des produits utilisés par des millions.",
+      "title4": "Open Source",
+      "desc4": "Contribution à des projets open source majeurs avec plus de 2000 étoiles GitHub."
+    }
+  },
+  "projects": {
+    "heading": "Travaux sélectionnés",
+    "viewProject": "Voir le projet",
+    "projects": [
+      {
+        "name": "Nexus Analytics",
+        "description": "Tableau de bord d'analytics en temps réel avec widgets personnalisables et insights alimentés par l'IA pour les clients entreprise.",
+        "tags": ["React", "TypeScript", "D3.js", "WebSocket"]
+      },
+      {
+        "name": "Luxe Commerce",
+        "description": "Plateforme e-commerce premium avec paiement fluide, gestion des stocks et recommandations produits par IA.",
+        "tags": ["Next.js", "Node.js", "PostgreSQL", "Stripe"]
+      },
+      {
+        "name": "DevStudio Pro",
+        "description": "Éditeur de code alimenté par l'IA avec autocomplétion intelligente, collaboration en temps réel et déploiement cloud.",
+        "tags": ["Electron", "Monaco", "OpenAI", "WebRTC"]
+      },
+      {
+        "name": "Social Pulse",
+        "description": "Plateforme d'analytics de médias sociaux suivant les métriques d'engagement sur plusieurs plateformes en temps réel.",
+        "tags": ["Vue.js", "Python", "Redis", "GraphQL"]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Construisons ensemble",
+    "description": "Vous avez un projet en tête ? Discutons de comment nous pouvons transformer vos idées en réalité.",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès !",
+    "social": "Ou retrouvez-moi sur"
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "built": "Construit avec React & Three.js"
+  },
+  "lang": {
+    "en": "EN",
+    "ar": "AR",
+    "ru": "RU",
+    "jp": "JP"
+
+  }
+}
