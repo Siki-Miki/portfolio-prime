@@ -167,7 +167,7 @@ export default function Contact() {
             </p>
             <div className="flex items-center justify-center gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/SikiMiki"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#D97706] hover:bg-secondary transition-all"
@@ -175,7 +175,7 @@ export default function Contact() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ali-abboud-228578409/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#D97706] hover:bg-secondary transition-all"
@@ -183,7 +183,7 @@ export default function Contact() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/alicoo_abboud"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#D97706] hover:bg-secondary transition-all"

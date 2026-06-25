@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const projectImages = [
-  '/project-1.jpg',
+  '/project-1.png',
   '/project-2.jpg',
   '/project-3.jpg',
   '/project-4.jpg',
