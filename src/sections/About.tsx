@@ -35,7 +35,7 @@ function RollingNumber({ target, suffix = '' }: { target: number; suffix?: strin
   }, [target]);
 
   return (
-    <div ref={ref} className="font-mono text-4xl sm:text-5xl font-bold text-[#D97706]">
+    <div ref={ref} className="font-mono text-4xl sm:text-5xl font-bold text-[#1D4ED8]">
       {display}
       {suffix}
     </div>
@@ -135,7 +135,7 @@ export default function About() {
       className="relative py-24 sm:py-32 lg:py-40 overflow-hidden"
     >
       {/* Background decoration */}
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-[#D97706]/5 to-transparent pointer-events-none" />
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-[#1D4ED8]/5 to-transparent pointer-events-none" />
 
       <div className="section-padding max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
@@ -156,15 +156,15 @@ export default function About() {
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 sm:gap-6">
-              <div className="about-stat p-4 sm:p-6 rounded-2xl bg-card border border-border hover:border-[#D97706]/30 transition-colors">
+              <div className="about-stat p-4 sm:p-6 rounded-2xl bg-card border border-border hover:border-[#1D4ED8]/30 transition-colors">
                 <RollingNumber target={1} suffix="+" />
                 <p className="text-xs sm:text-sm text-muted-foreground mt-2">{t('about.stats.years')}</p>
               </div>
-              <div className="about-stat p-4 sm:p-6 rounded-2xl bg-card border border-border hover:border-[#D97706]/30 transition-colors">
+              <div className="about-stat p-4 sm:p-6 rounded-2xl bg-card border border-border hover:border-[#1D4ED8]/30 transition-colors">
                 <RollingNumber target={2} />
                 <p className="text-xs sm:text-sm text-muted-foreground mt-2">{t('about.stats.projects')}</p>
               </div>
-              <div className="about-stat p-4 sm:p-6 rounded-2xl bg-card border border-border hover:border-[#D97706]/30 transition-colors">
+              <div className="about-stat p-4 sm:p-6 rounded-2xl bg-card border border-border hover:border-[#1D4ED8]/30 transition-colors">
                 <RollingNumber target={1000} suffix="+" />
                 <p className="text-xs sm:text-sm text-muted-foreground mt-2">{t('about.stats.stars')}</p>
               </div>
@@ -175,7 +175,7 @@ export default function About() {
           <div className={`lg:col-span-2 timeline-container relative ${isRTL ? 'lg:order-1' : ''}`}>
             {/* Central line */}
             <div
-              className={`timeline-line absolute top-0 bottom-0 w-px bg-gradient-to-b from-[#D97706] via-[#D97706]/50 to-transparent origin-top ${
+              className={`timeline-line absolute top-0 bottom-0 w-px bg-gradient-to-b from-[#1D4ED8] via-[#1D4ED8]/50 to-transparent origin-top ${
                 isRTL ? 'right-4' : 'left-4'
               }`}
             />
@@ -188,11 +188,11 @@ export default function About() {
                 >
                   {/* Node */}
                   <div
-                    className={`absolute top-0 w-8 h-8 rounded-full bg-background border-2 border-[#D97706] flex items-center justify-center shadow-lg shadow-[#D97706]/20 ${
+                    className={`absolute top-0 w-8 h-8 rounded-full bg-background border-2 border-[#1D4ED8] flex items-center justify-center shadow-lg shadow-[#1D4ED8]/20 ${
                       isRTL ? 'right-0' : 'left-0'
                     }`}
                   >
-                    <item.icon className="w-4 h-4 text-[#D97706]" />
+                    <item.icon className="w-4 h-4 text-[#1D4ED8]" />
                   </div>
 
                   {/* Content */}

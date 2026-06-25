@@ -39,7 +39,9 @@
       {
         "name": "Super Car Platform",
         "description": "High-performance automotive platform focusing on ultimate speed, clean architecture, andframework-free performance with smooth UX.",
-        "tags": ["Vanilla JavaScript", "HTML5", "CSS3"]
+        "tags": ["Vanilla JavaScript", "HTML5", "CSS3"],
+        "github": "https://github.com/SikiMiki/super-car-platform",
+        "live": "https://github.com/SikiMiki/super-car-platform"
       },
       {
         "name": "Luxe Commerce",

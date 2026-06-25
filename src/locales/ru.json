@@ -39,7 +39,9 @@
       {
         "name": "Nexus Analytics",
         "description": "Tableau de bord d'analytics en temps réel avec widgets personnalisables et insights alimentés par l'IA pour les clients entreprise.",
-        "tags": ["React", "TypeScript", "D3.js", "WebSocket"]
+        "tags": ["React", "TypeScript", "D3.js", "WebSocket"],
+        "github": "https://github.com/SikiMiki/super-car-platform",
+        "live": "https://github.com/SikiMiki/super-car-platform"
       },
       {
         "name": "Luxe Commerce",

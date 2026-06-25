@@ -14,7 +14,7 @@ export default function Footer() {
           </p>
 
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            {t('footer.built')} <Heart className="w-3 h-3 text-[#D97706] fill-[#D97706]" />
+            {t('footer.built')} <Heart className="w-3 h-3 text-[#1D4ED8] fill-[#1D4ED8]" />
           </p>
         </div>
       </div>

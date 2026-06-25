@@ -48,7 +48,7 @@ export default function Navbar() {
           {/* Logo */}
           <a
             href="#"
-            className="text-xl lg:text-2xl font-bold tracking-tight text-foreground hover:text-[#D97706] transition-colors"
+            className="text-xl lg:text-2xl font-bold tracking-tight text-foreground hover:text-[#1D4ED8] transition-colors"
           >
             &lt;Dev/&gt;
           </a>
@@ -62,7 +62,7 @@ export default function Navbar() {
                 className="text-sm font-medium uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors relative group"
               >
                 {t(`nav.${link.key}`)}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#D97706] transition-all duration-300 group-hover:w-full" />
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#1D4ED8] transition-all duration-300 group-hover:w-full" />
               </button>
             ))}
           </div>
@@ -77,7 +77,7 @@ export default function Navbar() {
                   onClick={() => changeLang(lang)}
                   className={`px-2.5 py-1 text-xs font-semibold rounded-full transition-all ${
                     currentLang === lang
-                      ? 'bg-[#D97706] text-white'
+                      ? 'bg-[#1D4ED8] text-white'
                       : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
@@ -132,7 +132,7 @@ export default function Navbar() {
                   onClick={() => changeLang(lang)}
                   className={`px-3 py-1.5 text-xs font-semibold rounded-full transition-all ${
                     currentLang === lang
-                      ? 'bg-[#D97706] text-white'
+                      ? 'bg-[#1D4ED8] text-white'
                       : 'bg-secondary text-muted-foreground hover:text-foreground'
                   }`}
                 >

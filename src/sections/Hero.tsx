@@ -101,7 +101,7 @@ export default function Hero() {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(217, 119, 6, ${p.opacity})`;
+        ctx.fillStyle = `rgba(59, 130, 246, ${p.opacity})`;
         ctx.fill();
       });
 
@@ -115,7 +115,7 @@ export default function Hero() {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(217, 119, 6, ${0.1 * (1 - dist / 150)})`;
+            ctx.strokeStyle = `rgba(59, 130, 246, ${1 * (1 - dist / 150)})`;
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }
@@ -165,7 +165,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center section-padding max-w-5xl mx-auto">
         <div className="mb-6">
-          <span className="inline-block px-4 py-2 rounded-full bg-[#D97706]/10 border border-[#D97706]/20 text-[#D97706] text-sm font-mono">
+          <span className="inline-block px-4 py-2 rounded-full bg-[#1D4ED8]/10 border border-[#1D4ED8]/20 text-[#1D4ED8] text-sm font-mono">
             {t('hero.greeting')}
           </span>
         </div>
@@ -175,7 +175,7 @@ export default function Hero() {
           className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight mb-4"
         >
           <span className="text-foreground">{typedName}</span>
-          <span className="inline-block w-[3px] h-[0.8em] bg-[#D97706] ml-2 animate-pulse align-middle" />
+          <span className="inline-block w-[3px] h-[0.8em] bg-[#1D4ED8] ml-2 animate-pulse align-middle" />
         </h1>
 
         <p
@@ -196,7 +196,7 @@ export default function Hero() {
         <div ref={ctaRef} className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button
             onClick={handleScrollDown}
-            className="group px-8 py-4 bg-[#D97706] text-white font-semibold rounded-full hover:bg-[#B45309] transition-all duration-300 hover:shadow-lg hover:shadow-[#D97706]/25 hover:-translate-y-0.5"
+            className="group px-8 py-4 bg-[#1D4ED8] text-white font-semibold rounded-full hover:bg-[#1D4ED8] transition-all duration-300 hover:shadow-lg hover:shadow-[#1D4ED8]/25 hover:-translate-y-0.5"
           >
             {t('hero.cta')}
           </button>
@@ -206,7 +206,7 @@ export default function Hero() {
               href="https://github.com/SikiMiki"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#D97706] hover:bg-secondary transition-all"
+              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#1D4ED8] hover:bg-secondary transition-all"
             >
               <Github className="w-5 h-5" />
             </a>
@@ -214,7 +214,7 @@ export default function Hero() {
               href="https://www.linkedin.com/in/ali-abboud-228578409/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#D97706] hover:bg-secondary transition-all"
+              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#1D4ED8] hover:bg-secondary transition-all"
             >
               <Linkedin className="w-5 h-5" />
             </a>
@@ -222,7 +222,7 @@ export default function Hero() {
               href="https://x.com/alicoo_abboud"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#D97706] hover:bg-secondary transition-all"
+              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#1D4ED8] hover:bg-secondary transition-all"
             >
               <Twitter className="w-5 h-5" />
             </a>
@@ -233,15 +233,15 @@ export default function Hero() {
       {/* Scroll indicator */}
       <button
         onClick={handleScrollDown}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-muted-foreground hover:text-[#D97706] transition-colors group"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-muted-foreground hover:text-[#1D4ED8] transition-colors group"
       >
         <span className="text-xs uppercase tracking-widest">{t('hero.scroll')}</span>
         <ArrowDown className="w-4 h-4 animate-bounce" />
       </button>
 
       {/* Decorative corner elements */}
-      <div className="absolute top-20 left-8 w-20 h-20 border-l-2 border-t-2 border-[#D97706]/20 z-0 hidden lg:block" />
-      <div className="absolute bottom-20 right-8 w-20 h-20 border-r-2 border-b-2 border-[#D97706]/20 z-0 hidden lg:block" />
+      <div className="absolute top-20 left-8 w-20 h-20 border-l-2 border-t-2 border-[#1D4ED8]/20 z-0 hidden lg:block" />
+      <div className="absolute bottom-20 right-8 w-20 h-20 border-r-2 border-b-2 border-[#1D4ED8]/20 z-0 hidden lg:block" />
     </section>
   );
 }

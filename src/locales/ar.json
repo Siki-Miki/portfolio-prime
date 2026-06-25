@@ -39,7 +39,9 @@
       {
         "name": "Nexus Analytics",
         "description": "لوحة تحليلات بيانات فورية مع أدوات قابلة للتخصيص ورؤى مدعومة بالذكاء الاصطناعي للعملاء المؤسسيين.",
-        "tags": ["React", "TypeScript", "D3.js", "WebSocket"]
+        "tags": ["React", "TypeScript", "D3.js", "WebSocket"],
+        "github": "https://github.com/SikiMiki/super-car-platform",
+        "live": "https://github.com/SikiMiki/super-car-platform"
       },
       {
         "name": "Luxe Commerce",
