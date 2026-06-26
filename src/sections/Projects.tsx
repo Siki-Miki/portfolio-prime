@@ -8,9 +8,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projectImages = [
   '/project-1.png',
-  '/project-2.jpg',
-  '/project-3.jpg',
-  '/project-4.jpg',
+  '/project-2.png',
+  '/project-2.png',
+  '/project-2.png',
 ];
 
 export default function Projects() {
@@ -78,7 +78,7 @@ export default function Projects() {
               {/* Image */}
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src={projectImages[index]}
+                 src={`${import.meta.env.BASE_URL}${projectImages[index].replace(/^\//, '')}`}
                   alt={project.name}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />

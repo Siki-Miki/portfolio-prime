@@ -200,7 +200,7 @@ export default function Hero() {
         <div ref={ctaRef} className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button
             onClick={handleScrollDown}
-            className="group px-8 py-4 bg-[#1D4ED8] text-white font-semibold rounded-full hover:bg-[#1D4ED8] transition-all duration-300 hover:shadow-lg hover:shadow-[#1D4ED8]/25 hover:-translate-y-0.5"
+            className="group px-8 py-4 bg-[#1D4ED8] text-white font-semibold rounded-full hover:bg-[#3B82F6] transition-all duration-300 hover:shadow-lg hover:shadow-[#3B82F6]/25 hover:-translate-y-0.5"
           >
             {t('hero.cta')}
           </button>
@@ -210,7 +210,7 @@ export default function Hero() {
               href="https://github.com/SikiMiki"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#1D4ED8] hover:bg-secondary transition-all"
+              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#000] hover:bg-secondary transition-all"
             >
               <Github className="w-5 h-5" />
             </a>
@@ -226,7 +226,7 @@ export default function Hero() {
               href="https://x.com/alicoo_abboud"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#1D4ED8] hover:bg-secondary transition-all"
+              className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#000] hover:bg-secondary transition-all"
             >
               <Twitter className="w-5 h-5" />
             </a>

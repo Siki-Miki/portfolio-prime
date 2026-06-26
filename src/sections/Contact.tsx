@@ -143,7 +143,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-4 px-8 bg-[#1D4ED8] text-white font-semibold rounded-xl hover:bg-[#B45309] transition-all duration-300 hover:shadow-lg hover:shadow-[#1D4ED8]/25 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                className="w-full py-4 px-8 bg-[#1D4ED8] text-white font-semibold rounded-xl hover:bg-[#3B82F6] transition-all duration-300 hover:shadow-lg hover:shadow-[#3B82F6]/25 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >
                 {isSubmitting ? (
                   <>
@@ -170,7 +170,7 @@ export default function Contact() {
                 href="https://github.com/SikiMiki"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#1D4ED8] hover:bg-secondary transition-all"
+                className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#000] hover:bg-secondary transition-all"
               >
                 <Github className="w-5 h-5" />
               </a>
@@ -186,7 +186,7 @@ export default function Contact() {
                 href="https://x.com/alicoo_abboud"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#1D4ED8] hover:bg-secondary transition-all"
+                className="p-3 rounded-full bg-secondary/50 text-muted-foreground hover:text-[#000] hover:bg-secondary transition-all"
               >
                 <Twitter className="w-5 h-5" />
               </a>

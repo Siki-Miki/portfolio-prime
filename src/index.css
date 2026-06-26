@@ -82,7 +82,7 @@
     background-clip: text;
   }
   .section-padding {
-    @apply px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24;
+    @apply px-4  sm:px-6 lg:px-8 xl:px-16 2xl:px-24;
   }
 }
 
