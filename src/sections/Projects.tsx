@@ -21,6 +21,7 @@ export default function Projects() {
     name: string;
     description: string;
     tags: string[];
+    live: string;
   }>;
 
   useEffect(() => {
@@ -84,9 +85,14 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
 
                 {/* Link icon */}
-                <div className="absolute top-4 right-4 p-2 rounded-full bg-background/80 backdrop-blur-sm border border-border opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
-                  <ExternalLink className="w-4 h-4 text-[#1D4ED8]" />
-                </div>
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute top-4 right-4 p-2 rounded-full bg-background/80 backdrop-blur-sm"
+                  aria-label={t('projects.viewProject')}>
+                  <ExternalLink className="w-4 h-4 text-[#104ED8]" />
+                </a>
               </div>
 
               {/* Content */}

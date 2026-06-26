@@ -1,79 +1,78 @@
 {
   "nav": {
-    "about": "À propos",
-    "projects": "Projets",
-    "contact": "Contact"
+    "about": "Обо мне",
+    "projects": "Проекты",
+    "contact": "Контакты"
   },
   "hero": {
-    "greeting": "Bonjour, je suis",
-    "name": "Ali",
-    "title": "Développeur Front-End",
-    "description": "Je crée des systèmes numériques robustes avec une attention méticuleuse aux détails. Passionné par la construction d'applications web performantes, accessibles et belles.",
-    "cta": "Voir mes travaux",
-    "scroll": "Défiler vers le bas"
+    "greeting": "Привет, я Али",
+    "name": "Али",
+    "title": "Front-End разработчик",
+    "description": "Создаю пиксельно-идеальные интерфейсы и проектирую высокопроизводительные, гибкие веб-приложения.",
+    "cta": "Посмотреть работы",
+    "scroll": "Листайте вниз"
   },
   "about": {
-    "heading": "L'architecte derrière le code",
-    "bio1": "Avec plus d'une décennie d'expérience en ingénierie logicielle, j'ai perfectionné mon art dans des startups et des environnements d'entreprise. Mon approche combine la précision technique avec la résolution créative de problèmes.",
-    "bio2": "Je me spécialise dans la construction d'applications web évolutives utilisant des technologies modernes. Du concept au déploiement, je m'assure que chaque ligne de code sert un but et que chaque interaction est intuitive.",
+    "heading": "Инженер за кулисами кода",
+    "bio1": "Front-end разработчик, увлеченный превращением сложных идей в интуитивно понятные и интерактивные цифровые продукты. В работе я сочетаю техническую точность с креативным подходом, чтобы создавать уникальный пользовательский опыт.",
+    "bio2": "Я специализируюсь на создании современных, быстрых и масштабируемых веб-приложений. Внимание к каждой детали кода — мой приоритет, что гарантирует плавное взаимодействие, высокую производительность и надежную архитектуру.",
     "stats": {
-      "years": "Années d'expérience",
-      "projects": "Projets livrés",
-      "stars": "Étoiles GitHub"
+      "years": "Лет опыта",
+      "projects": "Проектов завершено",
+      "stars": "Часов кода"
     },
     "timeline": {
-      "title1": "Début du codage",
-      "desc1": "Première ligne de HTML écrite, déclenchant une passion durable pour la programmation.",
-      "title2": "Premier freelance",
-      "desc2": "Construction de sites web pour des entreprises locales tout en étudiant l'informatique.",
-      "title3": "Développeur senior",
-      "desc3": "Direction d'équipes de développement dans des startups tech, livrant des produits utilisés par des millions.",
-      "title4": "Open Source",
-      "desc4": "Contribution à des projets open source majeurs avec plus de 2000 étoiles GitHub."
+      "title1": "Мой путь в программировании",
+      "desc1": "Первая строчка кода HTML — искра, разжегшая страсть к программированию на всю жизнь.",
+      "title2": "Образование и проекты",
+      "desc2": "Инженерный подход позволяет мне решать сложные задачи, создавая лаконичный, эффективный и логически выверенный код.",
+      "title3": "Где программная логика встречается с цифровым креативом.",
+      "desc3": "Как Front-End разработчик, я оттачиваю каждую деталь интерфейса, чтобы обеспечить плавное взаимодействие и сверхвысокую производительность. Мой подход основан на аналитическом решении задач и создании гибких веб-решений, соответствующих новейшим технологиям.",
+      "title4": "Разработчик современных веб-интерфейсов",
+      "desc4": "Фокус на создании быстрых, адаптивных и интегрированных веб-приложений с использованием передовых Front-End технологий для обеспечения идеального пользовательского опыта."
     }
   },
   "projects": {
-    "heading": "Travaux sélectionnés",
-    "viewProject": "Voir le projet",
+    "heading": "Избранные проекты",
+    "viewProject": "Смотреть проект",
     "projects": [
       {
-        "name": "Nexus Analytics",
-        "description": "Tableau de bord d'analytics en temps réel avec widgets personnalisables et insights alimentés par l'IA pour les clients entreprise.",
-        "tags": ["React", "TypeScript", "D3.js", "WebSocket"],
-        "github": "https://github.com/SikiMiki/super-car-platform",
+        "name": "Super Car Platform",
+        "description": "Высокопроизводительная автомобильная платформа, ориентированная на максимальную скорость, чистую архитектуру и производительность без фреймворков (Framework-free) с плавным UX.",
+        "tags": ["Vanilla JavaScript", "Semantic HTML5", "Custom CSS3 Architecture"],
         "live": "https://github.com/SikiMiki/super-car-platform"
       },
       {
-        "name": "Luxe Commerce",
-        "description": "Plateforme e-commerce premium avec paiement fluide, gestion des stocks et recommandations produits par IA.",
-        "tags": ["Next.js", "Node.js", "PostgreSQL", "Stripe"]
+        "name": "Скоро в разработке",
+        "description": "...",
+        "tags": []
       },
       {
-        "name": "DevStudio Pro",
-        "description": "Éditeur de code alimenté par l'IA avec autocomplétion intelligente, collaboration en temps réel et déploiement cloud.",
-        "tags": ["Electron", "Monaco", "OpenAI", "WebRTC"]
+        "name": "Скоро в разработке",
+        "description": "...",
+        "tags": []
       },
       {
-        "name": "Social Pulse",
-        "description": "Plateforme d'analytics de médias sociaux suivant les métriques d'engagement sur plusieurs plateformes en temps réel.",
-        "tags": ["Vue.js", "Python", "Redis", "GraphQL"]
+        "name": "Скоро в разработке",
+        "description": "...",
+        "tags": []
       }
     ]
   },
   "contact": {
-    "heading": "Construisons ensemble",
-    "description": "Vous avez un projet en tête ? Discutons de comment nous pouvons transformer vos idées en réalité.",
-    "name": "Nom",
+    "heading": "Давайте строить вместе",
+    "description": "Есть идея для проекта? Давайте обсудим, как воплотить ваши мысли в реальность.",
+    "name": "Имя",
     "email": "Email",
-    "message": "Message",
-    "send": "Envoyer le message",
-    "sending": "Envoi en cours...",
-    "success": "Message envoyé avec succès !",
-    "social": "Ou retrouvez-moi sur"
+    "message": "Сообщение",
+    "send": "Отправить сообщение",
+    "sending": "Отправка...",
+    "success": "Сообщение успешно отправлено!",
+    "social": "Или найдите меня в"
   },
   "footer": {
-    "copyright": "Tous droits réservés.",
-    "built": "Construit avec React & Three.js"
+    "copyright": "Все права защищены.",
+    "built": "Создано с использованием React и Three.js"
   },
   "lang": {
     "en": "EN",

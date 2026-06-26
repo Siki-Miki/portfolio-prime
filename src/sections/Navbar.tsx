@@ -17,11 +17,14 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const changeLang = (lang: string) => {
-    i18n.changeLanguage(lang);
-    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.lang = lang;
-  };
+ const changeLang = (lang: string) => {
+  i18n.changeLanguage(lang);
+};
+useEffect(() => {
+  const currentLang = i18n.language;
+  document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+  document.documentElement.lang = currentLang;
+}, [i18n.language]);
 
   const navLinks = [
     { key: 'about', href: '#about' },

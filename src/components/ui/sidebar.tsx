@@ -1,5 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
 "use client"
-
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
@@ -242,8 +242,8 @@ function Sidebar({
         {...props}
       >
         <div
-          data-sidebar="sidebar"
           data-slot="sidebar-inner"
+          data-sidebar="sidebar"
           className="bg-sidebar group-data-[variant=floating]:border-sidebar-border flex h-full w-full flex-col group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:shadow-sm"
         >
           {children}
@@ -599,17 +599,15 @@ function SidebarMenuBadge({
   )
 }
 
-function SidebarMenuSkeleton({
-  className,
-  showIcon = false,
-  ...props
-}: React.ComponentProps<"div"> & {
-  showIcon?: boolean
-}) {
-  // Random width between 50 to 90%.
-  const width = React.useMemo(() => {
-    return `${Math.floor(Math.random() * 40) + 50}%`
+function SidebarMenuSkeleton({ className, showIcon = false, ...props }: React.ComponentProps<"div"> & { showIcon?: boolean }) {
+  const [width, setWidth] = React.useState("75%")
+
+  React.useEffect(() => {
+    queueMicrotask(() => {
+      setWidth(`${Math.floor(Math.random() * 40) + 50}%`)
+    })
   }, [])
+  
 
   return (
     <div

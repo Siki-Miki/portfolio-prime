@@ -93,11 +93,15 @@ function Carousel({
 
   React.useEffect(() => {
     if (!api) return
-    onSelect(api)
+    
+    // التعديل هنا: تغليف الاستدعاء لتجنب الرندر المتزامن المباشر
+    const animationFrameId = requestAnimationFrame(() => onSelect(api))
+    
     api.on("reInit", onSelect)
     api.on("select", onSelect)
 
     return () => {
+      cancelAnimationFrame(animationFrameId)
       api?.off("select", onSelect)
     }
   }, [api, onSelect])

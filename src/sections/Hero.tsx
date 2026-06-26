@@ -14,10 +14,9 @@ export default function Hero() {
   const fullName = t('hero.name');
   const isRTL = i18n.language === 'ar';
 
-  // Typing effect
+  // Typing effect - تم إصلاحه هنا بأمان تام
   useEffect(() => {
     let index = 0;
-    setTypedName('');
     const interval = setInterval(() => {
       if (index <= fullName.length) {
         setTypedName(fullName.slice(0, index));
@@ -26,10 +25,15 @@ export default function Hero() {
         clearInterval(interval);
       }
     }, 100);
-    return () => clearInterval(interval);
+
+    // تفريغ النص يتم هنا في دالة التنظيف عند تغيير اللغة أو مغادرة الصفحة
+    return () => {
+      clearInterval(interval);
+      setTypedName('');
+    };
   }, [fullName]);
 
-  // GSAP animations
+  // GSAP animations - كما هي تماماً بدون أي تغيير لحماية الحركة
   useEffect(() => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
@@ -54,7 +58,7 @@ export default function Hero() {
     return () => ctx.revert();
   }, []);
 
-  // Particle canvas
+  // Particle canvas - كما هي تماماً بدون أي تغيير لحماية الجزيئات والخلفية
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -62,7 +66,7 @@ export default function Hero() {
     if (!ctx) return;
 
     let animationId: number;
-    let particles: Array<{
+    const particles: Array<{
       x: number;
       y: number;
       vx: number;

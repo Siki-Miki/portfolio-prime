@@ -5,7 +5,7 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/portfolio-prime/', // 👈 عدّل هذا السطر فقط واكتب اسم مستودعك هنا بدلاً من './'
   plugins: [inspectAttr(), react()],
   server: {
     port: 3000,
